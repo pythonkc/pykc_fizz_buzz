@@ -9,9 +9,9 @@ class FizzBuzz(object):
         fizz_buzz = ''
         if num == 0:
             return str(num)
-        if num % 3 == 0 or '3' in str(num):
+        if num % 3 == 0:
             fizz_buzz += 'Fizz'
-        if num % 5 == 0 or '5' in str(num):
+        if num % 5 == 0:
             fizz_buzz += 'Buzz'
         return fizz_buzz if len(fizz_buzz) else str(num)
 
