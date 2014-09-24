@@ -6,14 +6,8 @@ import argparse
 class FizzBuzz(object):
 
     def fizzbuzzify(self, num):
-        fizz_buzz = ''
-        if num == 0:
-            return str(num)
-        if num % 3 == 0 or '3' in str(num):
-            fizz_buzz += 'Fizz'
-        if num % 5 == 0 or '5' in str(num):
-            fizz_buzz += 'Buzz'
-        return fizz_buzz if len(fizz_buzz) else str(num)
+        # Put your code here.
+        pass  # Be sure to change this to a return statement of some sort.
 
 
 if __name__ == '__main__':
